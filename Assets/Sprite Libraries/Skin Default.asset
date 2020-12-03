@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5bf7c34a0dc4e6348bea04faa70406ee, type: 3}
-  m_Name: Skin Purple
+  m_Name: Skin Default
   m_EditorClassIdentifier: 
   m_Labels:
   - m_Name: Hand-F
@@ -18,64 +18,64 @@ MonoBehaviour:
     m_CategoryList:
     - m_Name: Hand-F
       m_Hash: -584504615
-      m_Sprite: {fileID: 6987822215627340449, guid: bbac8eee1f77a4f3ea423f2caaaabb67, type: 3}
+      m_Sprite: {fileID: -8896951996407247564, guid: ddd4c954eff984ed5be66ed89345ac63, type: 3}
   - m_Name: Arm-F
     m_Hash: -1659041590
     m_CategoryList:
     - m_Name: Arm-F
       m_Hash: -1659041590
-      m_Sprite: {fileID: 8479849840139046451, guid: bbac8eee1f77a4f3ea423f2caaaabb67, type: 3}
+      m_Sprite: {fileID: 7653169655046982978, guid: ddd4c954eff984ed5be66ed89345ac63, type: 3}
   - m_Name: Head
     m_Hash: 130111906
     m_CategoryList:
     - m_Name: Head
       m_Hash: 130111906
-      m_Sprite: {fileID: 7177100558776833791, guid: bbac8eee1f77a4f3ea423f2caaaabb67, type: 3}
+      m_Sprite: {fileID: 1636807440851983187, guid: ddd4c954eff984ed5be66ed89345ac63, type: 3}
   - m_Name: Neck
     m_Hash: -2145158803
     m_CategoryList:
     - m_Name: Neck
       m_Hash: -2145158803
-      m_Sprite: {fileID: 591566061594630313, guid: bbac8eee1f77a4f3ea423f2caaaabb67, type: 3}
+      m_Sprite: {fileID: -6369147602810492148, guid: ddd4c954eff984ed5be66ed89345ac63, type: 3}
   - m_Name: Foot-F
     m_Hash: -58117667
     m_CategoryList:
     - m_Name: Foot-F
       m_Hash: -58117667
-      m_Sprite: {fileID: -7716128064408537314, guid: bbac8eee1f77a4f3ea423f2caaaabb67, type: 3}
+      m_Sprite: {fileID: -2926114370212736323, guid: ddd4c954eff984ed5be66ed89345ac63, type: 3}
   - m_Name: Leg-F
     m_Hash: -1512823157
     m_CategoryList:
     - m_Name: Leg-F
       m_Hash: -1512823157
-      m_Sprite: {fileID: -7815964122151824466, guid: bbac8eee1f77a4f3ea423f2caaaabb67, type: 3}
+      m_Sprite: {fileID: 1430033819706231464, guid: ddd4c954eff984ed5be66ed89345ac63, type: 3}
   - m_Name: Body
     m_Hash: 2073732236
     m_CategoryList:
     - m_Name: Body
       m_Hash: 2073732236
-      m_Sprite: {fileID: 1440939947631130512, guid: bbac8eee1f77a4f3ea423f2caaaabb67, type: 3}
+      m_Sprite: {fileID: -4572316432668440528, guid: ddd4c954eff984ed5be66ed89345ac63, type: 3}
   - m_Name: Foot-B
     m_Hash: -68880956
     m_CategoryList:
     - m_Name: Foot-B
       m_Hash: -68880956
-      m_Sprite: {fileID: -4484388798795643127, guid: bbac8eee1f77a4f3ea423f2caaaabb67, type: 3}
+      m_Sprite: {fileID: -5481782384336008062, guid: ddd4c954eff984ed5be66ed89345ac63, type: 3}
   - m_Name: Leg-B
     m_Hash: -1564876142
     m_CategoryList:
     - m_Name: Leg-B
       m_Hash: -1564876142
-      m_Sprite: {fileID: 5303465069701003912, guid: bbac8eee1f77a4f3ea423f2caaaabb67, type: 3}
+      m_Sprite: {fileID: -3354298595864990482, guid: ddd4c954eff984ed5be66ed89345ac63, type: 3}
   - m_Name: Hand-B
     m_Hash: -633016640
     m_CategoryList:
     - m_Name: Hand-B
       m_Hash: -633016640
-      m_Sprite: {fileID: -4938860008031692348, guid: bbac8eee1f77a4f3ea423f2caaaabb67, type: 3}
+      m_Sprite: {fileID: 3569109167611323064, guid: ddd4c954eff984ed5be66ed89345ac63, type: 3}
   - m_Name: Arm-B
     m_Hash: -1703883565
     m_CategoryList:
     - m_Name: Arm-B
       m_Hash: -1703883565
-      m_Sprite: {fileID: -3653632244187285078, guid: bbac8eee1f77a4f3ea423f2caaaabb67, type: 3}
+      m_Sprite: {fileID: 6158112004048253062, guid: ddd4c954eff984ed5be66ed89345ac63, type: 3}
