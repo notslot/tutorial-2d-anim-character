@@ -170,7 +170,6 @@ GameObject:
   - component: {fileID: 465201073728706156}
   - component: {fileID: 1736256339183160438}
   - component: {fileID: 5731071552878497123}
-  - component: {fileID: 6945226485536724596}
   m_Layer: 0
   m_Name: Hand-B
   m_TagString: Untagged
@@ -263,20 +262,6 @@ MonoBehaviour:
     m_Extent: {x: 0.29301083, y: 0.54160017, z: 0.015579458}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
---- !u!114 &6945226485536724596
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 896656660329866749}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed8b1ae4e4e52b34ea557c1c11e076fc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_CategoryHash: -1.3857901e+16
-  m_labelHash: -1.3857901e+16
 --- !u!1 &1271741037084492022
 GameObject:
   m_ObjectHideFlags: 0
@@ -350,7 +335,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 23
-  m_Sprite: {fileID: -857564769561265706, guid: 345daba6eace24570916cb67a95a45fe, type: 3}
+  m_Sprite: {fileID: -9210402251008351131, guid: 345daba6eace24570916cb67a95a45fe, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -378,8 +363,8 @@ MonoBehaviour:
   - {fileID: 2514261521042785831}
   - {fileID: 4474587538591688167}
   m_Bounds:
-    m_Center: {x: -0.00000022351742, y: 0.00016525388, z: 0.02}
-    m_Extent: {x: 0.21500002, y: 0.30440536, z: 0.01}
+    m_Center: {x: -0.09530023, y: 0.0004800558, z: 0.02}
+    m_Extent: {x: 0.3097001, y: 0.30451998, z: 0.01}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &7940465193573862505
@@ -395,7 +380,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_CategoryHash: -3.257802e-39
-  m_labelHash: 2.3390456e+10
+  m_labelHash: -1368719.4
 --- !u!1 &1414555662043305310
 GameObject:
   m_ObjectHideFlags: 0
@@ -469,7 +454,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 27
-  m_Sprite: {fileID: -4903327262824498184, guid: 345daba6eace24570916cb67a95a45fe, type: 3}
+  m_Sprite: {fileID: -7127287056921263489, guid: 345daba6eace24570916cb67a95a45fe, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -496,8 +481,8 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 2514261521042785831}
   m_Bounds:
-    m_Center: {x: -0.0018603206, y: -0.0006748438, z: 0.03}
-    m_Extent: {x: 0.8481401, y: 1.164325, z: 0}
+    m_Center: {x: 0.12292981, y: 0.4209401, z: 0.03}
+    m_Extent: {x: 0.8429302, y: 0.9030701, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &7373075588221954710
@@ -513,7 +498,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_CategoryHash: 2.9092094e-34
-  m_labelHash: 4.5008934e-15
+  m_labelHash: -0.3349061
 --- !u!1 &1553250377907160226
 GameObject:
   m_ObjectHideFlags: 0
@@ -617,7 +602,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 17
-  m_Sprite: {fileID: 9069820403493708764, guid: 345daba6eace24570916cb67a95a45fe, type: 3}
+  m_Sprite: {fileID: -3309184337347791800, guid: 345daba6eace24570916cb67a95a45fe, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -646,8 +631,8 @@ MonoBehaviour:
   - {fileID: 8749311258972896308}
   - {fileID: 6348630653772065618}
   m_Bounds:
-    m_Center: {x: 0.0071012676, y: -0.0011429787, z: 0.005214436}
-    m_Extent: {x: 0.48890698, y: 1.9642961, z: 0.0051456047}
+    m_Center: {x: 0.006366104, y: -0.0011962652, z: 0.0045097456}
+    m_Extent: {x: 0.4882157, y: 1.9625691, z: 0.0058483416}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &3255921076240588320
@@ -663,7 +648,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_CategoryHash: -3.6802255e-16
-  m_labelHash: -1.2060102e-17
+  m_labelHash: 0.0008207785
 --- !u!1 &1735317849214199298
 GameObject:
   m_ObjectHideFlags: 0
@@ -739,7 +724,6 @@ GameObject:
   - component: {fileID: 1973024299478790446}
   - component: {fileID: 1752185666223638549}
   - component: {fileID: 7148294903946184316}
-  - component: {fileID: 5306706413272314082}
   m_Layer: 0
   m_Name: Hand-F
   m_TagString: Untagged
@@ -828,24 +812,10 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 6608234174589247848}
   m_Bounds:
-    m_Center: {x: 0.05748421, y: 0.004159689, z: -0.0073327236}
+    m_Center: {x: 0.05748433, y: 0.004159689, z: -0.0073327236}
     m_Extent: {x: 0.28989565, y: 0.5422394, z: 0.038969945}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
---- !u!114 &5306706413272314082
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1795059160492031273}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed8b1ae4e4e52b34ea557c1c11e076fc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_CategoryHash: -7.618621e+17
-  m_labelHash: -7.618621e+17
 --- !u!1 &2229777055236749617
 GameObject:
   m_ObjectHideFlags: 0
@@ -950,7 +920,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 31
-  m_Sprite: {fileID: 3285352953715333880, guid: 345daba6eace24570916cb67a95a45fe, type: 3}
+  m_Sprite: {fileID: -6246553769199696503, guid: 345daba6eace24570916cb67a95a45fe, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -979,8 +949,8 @@ MonoBehaviour:
   - {fileID: 5539470094413947575}
   - {fileID: 6608234174589247848}
   m_Bounds:
-    m_Center: {x: -0.021129012, y: 0.0019073486, z: 0.005380083}
-    m_Extent: {x: 0.29199255, y: 1.2165122, z: 0.025702536}
+    m_Center: {x: -0.02236104, y: 0.004859209, z: 0.0014496762}
+    m_Extent: {x: 0.2906275, y: 1.2198715, z: 0.029822111}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &1173402837669444817
@@ -996,7 +966,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_CategoryHash: -2.078332e-21
-  m_labelHash: -3.7837228e-25
+  m_labelHash: 2.2421967e-29
 --- !u!1 &4026274296212094890
 GameObject:
   m_ObjectHideFlags: 0
@@ -1070,7 +1040,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: -4801461238304810289, guid: 345daba6eace24570916cb67a95a45fe, type: 3}
+  m_Sprite: {fileID: 7508286283665227878, guid: 345daba6eace24570916cb67a95a45fe, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1099,8 +1069,8 @@ MonoBehaviour:
   - {fileID: 8953650776348948450}
   - {fileID: 7666114891380431730}
   m_Bounds:
-    m_Center: {x: -0.012093335, y: 0.0003437996, z: -0.02340602}
-    m_Extent: {x: 0.28570738, y: 1.2171483, z: 0.017579118}
+    m_Center: {x: -0.013434082, y: 0.0031050444, z: -0.023855908}
+    m_Extent: {x: 0.28479135, y: 1.2209167, z: 0.017325079}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &8859802954527396585
@@ -1116,7 +1086,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_CategoryHash: -4.9796292e-23
-  m_labelHash: -3.5910213e-28
+  m_labelHash: 1.4130879e-33
 --- !u!1 &4147427646413448029
 GameObject:
   m_ObjectHideFlags: 0
@@ -1289,7 +1259,7 @@ GameObject:
   - component: {fileID: 1887780860478046325}
   - component: {fileID: 110519626724140638}
   m_Layer: 0
-  m_Name: 2D-Character-Skin A
+  m_Name: 2D Character - Replacable
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1339,7 +1309,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c29cff538c195c249b69c6f2236de67b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SpriteLibraryAsset: {fileID: 6279295429390308920, guid: 345daba6eace24570916cb67a95a45fe, type: 3}
+  m_SpriteLibraryAsset: {fileID: 11400000, guid: 0f4b51d9b5d1c480a9865ee3153d93cb, type: 2}
 --- !u!114 &1887780860478046325
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1457,7 +1427,6 @@ GameObject:
   - component: {fileID: 7139339585823958831}
   - component: {fileID: 4693709734156033447}
   - component: {fileID: 4214321404908510078}
-  - component: {fileID: 8902663294497911692}
   m_Layer: 0
   m_Name: Foot-F
   m_TagString: Untagged
@@ -1546,24 +1515,10 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 6348630653772065618}
   m_Bounds:
-    m_Center: {x: 0.0002937913, y: -0.0043183565, z: 0.010651613}
-    m_Extent: {x: 0.6244549, y: 0.3466827, z: 0.0037851222}
+    m_Center: {x: 0.0002940297, y: -0.0043183565, z: 0.010651614}
+    m_Extent: {x: 0.6244549, y: 0.3466826, z: 0.0037851224}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
---- !u!114 &8902663294497911692
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5845296578644431616}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed8b1ae4e4e52b34ea557c1c11e076fc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_CategoryHash: -5.698848e+36
-  m_labelHash: -5.698848e+36
 --- !u!1 &5874102093407897737
 GameObject:
   m_ObjectHideFlags: 0
@@ -1637,7 +1592,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 7
-  m_Sprite: {fileID: 446709368123500751, guid: 345daba6eace24570916cb67a95a45fe, type: 3}
+  m_Sprite: {fileID: 663580365009406199, guid: 345daba6eace24570916cb67a95a45fe, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1666,8 +1621,8 @@ MonoBehaviour:
   - {fileID: 4529315217333088568}
   - {fileID: 4165867861263679708}
   m_Bounds:
-    m_Center: {x: 0.0059589744, y: -0.001187563, z: -0.01180937}
-    m_Extent: {x: 0.4881662, y: 1.9625335, z: 0.008874306}
+    m_Center: {x: 0.0061460733, y: -0.001373291, z: -0.01167422}
+    m_Extent: {x: 0.48766372, y: 1.9632595, z: 0.009011373}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &312323966636466906
@@ -1683,7 +1638,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_CategoryHash: -5.038424e-18
-  m_labelHash: -4.6797634e-17
+  m_labelHash: 0.054322597
 --- !u!1 &6103354041236627310
 GameObject:
   m_ObjectHideFlags: 0
@@ -1788,7 +1743,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 13
-  m_Sprite: {fileID: 2626096482859973739, guid: 345daba6eace24570916cb67a95a45fe, type: 3}
+  m_Sprite: {fileID: 394419794009849462, guid: 345daba6eace24570916cb67a95a45fe, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1816,8 +1771,8 @@ MonoBehaviour:
   - {fileID: 2005823046336627632}
   - {fileID: 6274943977847366627}
   m_Bounds:
-    m_Center: {x: 0.0816738, y: 0.004984975, z: 0}
-    m_Extent: {x: 0.7133261, y: 1.2600149, z: 0}
+    m_Center: {x: 0.039899945, y: 0.07365012, z: 0}
+    m_Extent: {x: 0.7008699, y: 1.1868601, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!114 &7639799100807683334
@@ -1833,7 +1788,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_CategoryHash: 1.6059022e+36
-  m_labelHash: -1.0511546e+29
+  m_labelHash: 1.6277831e+33
 --- !u!1 &6726327514879148065
 GameObject:
   m_ObjectHideFlags: 0
@@ -1966,7 +1921,6 @@ GameObject:
   - component: {fileID: 5642046828578800072}
   - component: {fileID: 4803511766094753091}
   - component: {fileID: 6580409506410784132}
-  - component: {fileID: 5480764893913989023}
   m_Layer: 0
   m_Name: Foot-B
   m_TagString: Untagged
@@ -2059,20 +2013,6 @@ MonoBehaviour:
     m_Extent: {x: 0.62421465, y: 0.34710228, z: 0.0019069538}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
---- !u!114 &5480764893913989023
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7708045602161729161}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed8b1ae4e4e52b34ea557c1c11e076fc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_CategoryHash: -2.3776568e+36
-  m_labelHash: -2.3776568e+36
 --- !u!1 &7983980352719723109
 GameObject:
   m_ObjectHideFlags: 0
@@ -2157,7 +2097,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8527292479140653569}
-  m_LocalRotation: {x: 0.000043127377, y: 0.003171242, z: -0.007403897, w: 0.9999676}
+  m_LocalRotation: {x: 0.000043127013, y: 0.003171242, z: -0.007403831, w: 0.9999676}
   m_LocalPosition: {x: 2.119467, y: 0.00000042613877, z: 0.01}
   m_LocalScale: {x: 0.99999976, y: 0.99999976, z: 1}
   m_Children:

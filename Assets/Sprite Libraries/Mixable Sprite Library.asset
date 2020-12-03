@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bf7c34a0dc4e6348bea04faa70406ee, type: 3}
+  m_Name: Mixable Sprite Library
+  m_EditorClassIdentifier: 
+  m_Labels:
+  - m_Name: Head
+    m_Hash: 130111906
+    m_CategoryList:
+    - m_Name: Head-2
+      m_Hash: 664938858
+      m_Sprite: {fileID: -4903327262824498184, guid: 345daba6eace24570916cb67a95a45fe, type: 3}
+    - m_Name: Head-1
+      m_Hash: -1096058672
+      m_Sprite: {fileID: -7127287056921263489, guid: 345daba6eace24570916cb67a95a45fe, type: 3}
+    - m_Name: Head
+      m_Hash: 130111906
+      m_Sprite: {fileID: -4421868843922039666, guid: 345daba6eace24570916cb67a95a45fe, type: 3}
+  - m_Name: Neck
+    m_Hash: -2145158803
+    m_CategoryList:
+    - m_Name: Neck-2
+      m_Hash: 1353598401
+      m_Sprite: {fileID: -857564769561265706, guid: 345daba6eace24570916cb67a95a45fe, type: 3}
+    - m_Name: Neck-1
+      m_Hash: -911797125
+      m_Sprite: {fileID: -9210402251008351131, guid: 345daba6eace24570916cb67a95a45fe, type: 3}
+    - m_Name: Neck
+      m_Hash: -2145158803
+      m_Sprite: {fileID: -4883099193083581519, guid: 345daba6eace24570916cb67a95a45fe, type: 3}
+  - m_Name: Arm-F
+    m_Hash: -1659041590
+    m_CategoryList:
+    - m_Name: Arm-F-2
+      m_Hash: -1763036293
+      m_Sprite: {fileID: 3285352953715333880, guid: 345daba6eace24570916cb67a95a45fe, type: 3}
+    - m_Name: Arm-F-1
+      m_Hash: 266560193
+      m_Sprite: {fileID: -6246553769199696503, guid: 345daba6eace24570916cb67a95a45fe, type: 3}
+    - m_Name: Arm-F
+      m_Hash: -1659041590
+      m_Sprite: {fileID: -2095750958823134408, guid: 345daba6eace24570916cb67a95a45fe, type: 3}
+  - m_Name: Arm-B
+    m_Hash: -1703883565
+    m_CategoryList:
+    - m_Name: Arm-B-2
+      m_Hash: -1847354457
+      m_Sprite: {fileID: -4801461238304810289, guid: 345daba6eace24570916cb67a95a45fe, type: 3}
+    - m_Name: Arm-B-1
+      m_Hash: 149604893
+      m_Sprite: {fileID: 7508286283665227878, guid: 345daba6eace24570916cb67a95a45fe, type: 3}
+    - m_Name: Arm-B
+      m_Hash: -1703883565
+      m_Sprite: {fileID: 6743781338824132439, guid: 345daba6eace24570916cb67a95a45fe, type: 3}
+  - m_Name: Body
+    m_Hash: 2073732236
+    m_CategoryList:
+    - m_Name: Body-2
+      m_Hash: -274083140
+      m_Sprite: {fileID: 2626096482859973739, guid: 345daba6eace24570916cb67a95a45fe, type: 3}
+    - m_Name: Body-1
+      m_Hash: 1990230790
+      m_Sprite: {fileID: 394419794009849462, guid: 345daba6eace24570916cb67a95a45fe, type: 3}
+    - m_Name: Body
+      m_Hash: 2073732236
+      m_Sprite: {fileID: -767578806447983150, guid: 345daba6eace24570916cb67a95a45fe, type: 3}
+  - m_Name: Leg-F
+    m_Hash: -1512823157
+    m_CategoryList:
+    - m_Name: Leg-F-2
+      m_Hash: -1554089927
+      m_Sprite: {fileID: 9069820403493708764, guid: 345daba6eace24570916cb67a95a45fe, type: 3}
+    - m_Name: Leg-F-1
+      m_Hash: 978790787
+      m_Sprite: {fileID: -3309184337347791800, guid: 345daba6eace24570916cb67a95a45fe, type: 3}
+    - m_Name: Leg-F
+      m_Hash: -1512823157
+      m_Sprite: {fileID: -9033485227613452632, guid: 345daba6eace24570916cb67a95a45fe, type: 3}
+  - m_Name: Leg-B
+    m_Hash: -1564876142
+    m_CategoryList:
+    - m_Name: Leg-B-2
+      m_Hash: -1537748763
+      m_Sprite: {fileID: 446709368123500751, guid: 345daba6eace24570916cb67a95a45fe, type: 3}
+    - m_Name: Leg-B-1
+      m_Hash: 1029603679
+      m_Sprite: {fileID: 663580365009406199, guid: 345daba6eace24570916cb67a95a45fe, type: 3}
+    - m_Name: Leg-B
+      m_Hash: -1564876142
+      m_Sprite: {fileID: 730846097581312968, guid: 345daba6eace24570916cb67a95a45fe, type: 3}

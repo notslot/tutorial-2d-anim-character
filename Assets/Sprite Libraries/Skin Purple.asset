@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bf7c34a0dc4e6348bea04faa70406ee, type: 3}
+  m_Name: Skin Purple
+  m_EditorClassIdentifier: 
+  m_Labels:
+  - m_Name: Hand-F
+    m_Hash: -584504615
+    m_CategoryList:
+    - m_Name: Hand-F
+      m_Hash: -584504615
+      m_Sprite: {fileID: -8625580527175225181, guid: a6ddc8c27af2d462fa7736a79ec8044d, type: 3}
+  - m_Name: Arm-F
+    m_Hash: -1659041590
+    m_CategoryList:
+    - m_Name: Arm-F
+      m_Hash: -1659041590
+      m_Sprite: {fileID: -3338421612832947229, guid: a6ddc8c27af2d462fa7736a79ec8044d, type: 3}
+  - m_Name: Head
+    m_Hash: 130111906
+    m_CategoryList:
+    - m_Name: HeadP
+      m_Hash: -2118730268
+      m_Sprite: {fileID: -7156900647895345146, guid: a6ddc8c27af2d462fa7736a79ec8044d, type: 3}
+  - m_Name: Neck
+    m_Hash: -2145158803
+    m_CategoryList:
+    - m_Name: Neck
+      m_Hash: -2145158803
+      m_Sprite: {fileID: -1758206678614904082, guid: a6ddc8c27af2d462fa7736a79ec8044d, type: 3}
+  - m_Name: Foot-F
+    m_Hash: -58117667
+    m_CategoryList:
+    - m_Name: Foot-F
+      m_Hash: -58117667
+      m_Sprite: {fileID: -1383090956316312042, guid: a6ddc8c27af2d462fa7736a79ec8044d, type: 3}
+  - m_Name: Leg-F
+    m_Hash: -1512823157
+    m_CategoryList:
+    - m_Name: Leg-F
+      m_Hash: -1512823157
+      m_Sprite: {fileID: -2456554057114124832, guid: a6ddc8c27af2d462fa7736a79ec8044d, type: 3}
+  - m_Name: Body
+    m_Hash: 2073732236
+    m_CategoryList:
+    - m_Name: Body
+      m_Hash: 2073732236
+      m_Sprite: {fileID: 4081434475905354948, guid: a6ddc8c27af2d462fa7736a79ec8044d, type: 3}
+  - m_Name: Foot-B
+    m_Hash: -68880956
+    m_CategoryList:
+    - m_Name: Foot-B
+      m_Hash: -68880956
+      m_Sprite: {fileID: 7912854861792007319, guid: a6ddc8c27af2d462fa7736a79ec8044d, type: 3}
+  - m_Name: Leg-B
+    m_Hash: -1564876142
+    m_CategoryList:
+    - m_Name: Leg-B
+      m_Hash: -1564876142
+      m_Sprite: {fileID: 6799924078191387978, guid: a6ddc8c27af2d462fa7736a79ec8044d, type: 3}
+  - m_Name: Hand-B
+    m_Hash: -633016640
+    m_CategoryList:
+    - m_Name: Hand-B
+      m_Hash: -633016640
+      m_Sprite: {fileID: 360587824926175792, guid: a6ddc8c27af2d462fa7736a79ec8044d, type: 3}
+  - m_Name: Arm-B
+    m_Hash: -1703883565
+    m_CategoryList:
+    - m_Name: Arm-B
+      m_Hash: -1703883565
+      m_Sprite: {fileID: -6708777723853350840, guid: a6ddc8c27af2d462fa7736a79ec8044d, type: 3}
