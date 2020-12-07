@@ -17,9 +17,6 @@ public class Replacer : MonoBehaviour
   [SerializeField]
   private string targetCategory = default;
 
-  [SerializeField]
-  private Sprite customHead = default;
-
   #endregion
 
 
@@ -42,7 +39,7 @@ public class Replacer : MonoBehaviour
     targetResolver.SetCategoryAndLabel(targetCategory, label);
   }
 
-  public void InjectCustom ()
+  public void InjectCustom (Sprite customSprite)
   {
     // Duplicate bones and poses
     string referenceLabel = targetResolver.GetLabel();
@@ -50,13 +47,13 @@ public class Replacer : MonoBehaviour
       spriteLibrary.GetSprite(targetCategory, referenceLabel);
     SpriteBone[] bones = referenceHead.GetBones();
     NativeArray<Matrix4x4> poses = referenceHead.GetBindPoses();
-    customHead.SetBones(bones);
-    customHead.SetBindPoses(poses);
+    customSprite.SetBones(bones);
+    customSprite.SetBindPoses(poses);
 
     // Inject new sprite
-    const string newLabel = "customHead";
-    spriteLibrary.AddOverride(customHead, targetCategory, newLabel);
-    targetResolver.SetCategoryAndLabel(targetCategory, newLabel);
+    const string customLabel = "customHead";
+    spriteLibrary.AddOverride(customSprite, targetCategory, customLabel);
+    targetResolver.SetCategoryAndLabel(targetCategory, customLabel);
   }
 
   #endregion

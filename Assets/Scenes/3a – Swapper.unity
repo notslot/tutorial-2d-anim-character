@@ -264,7 +264,6 @@ MonoBehaviour:
   spriteLibrary: {fileID: 416302274}
   targetResolver: {fileID: 1941905310}
   targetCategory: Head
-  customHead: {fileID: 21300000, guid: c9e63e879664c4b7fa1f126ef55913b2, type: 3}
 --- !u!114 &416302274 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1827629553741132566, guid: d3431fdf2e2934c6da62a4570873339d, type: 3}
@@ -824,10 +823,10 @@ MonoBehaviour:
       - m_Target: {fileID: 416302272}
         m_TargetAssemblyTypeName: Replacer, Assembly-CSharp
         m_MethodName: InjectCustom
-        m_Mode: 1
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 21300000, guid: c9e63e879664c4b7fa1f126ef55913b2, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -957,7 +956,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: REPLACER
+  m_Text: SWAPPER
 --- !u!222 &1283785073
 CanvasRenderer:
   m_ObjectHideFlags: 0
