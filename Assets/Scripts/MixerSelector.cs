@@ -17,10 +17,10 @@ public class MixerSelector : MonoBehaviour
 
   #region Methods
 
-  public void Init (MixerOption option, string[] labels)
+  public void Init (MixerCategory category, string[] labels)
   {
     // Set title
-    titleLabel.text = option.displayTitle;
+    titleLabel.text = category.displayTitle;
 
     // Populate dropdown
     List<Dropdown.OptionData> spriteLabels = new List<Dropdown.OptionData>();
@@ -36,8 +36,8 @@ public class MixerSelector : MonoBehaviour
     dropdown.onValueChanged.AddListener(optionIndex =>
     {
       string label = labels[optionIndex];
-      option.resolver.SetCategoryAndLabel(option.category, label);
-    });
+      category.resolver.SetCategoryAndLabel(category.name, label);
+    }); 
   }
 
   #endregion

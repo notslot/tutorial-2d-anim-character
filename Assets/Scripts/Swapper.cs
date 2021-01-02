@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.Experimental.U2D.Animation;
 using UnityEngine.U2D;
 
-public class Replacer : MonoBehaviour
+public class Swapper : MonoBehaviour
 {
   #region Inspector
 

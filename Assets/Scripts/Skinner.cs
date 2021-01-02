@@ -13,9 +13,9 @@ public class Skinner : MonoBehaviour
 
   #region Methods
 
-  public void Replace (SpriteLibraryAsset collection)
+  public void Replace (SpriteLibraryAsset libraryAsset)
   {
-    spriteLibrary.spriteLibraryAsset = collection;
+    spriteLibrary.spriteLibraryAsset = libraryAsset;
   }
 
   #endregion

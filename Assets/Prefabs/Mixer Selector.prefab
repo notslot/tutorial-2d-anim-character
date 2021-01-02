@@ -235,7 +235,7 @@ GameObject:
   - component: {fileID: 9102931366253520142}
   - component: {fileID: 4096207033617013799}
   m_Layer: 5
-  m_Name: Mixer Item
+  m_Name: Mixer Selector
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -2,11 +2,15 @@ using System;
 using UnityEngine.Experimental.U2D.Animation;
 
 [Serializable]
-public struct MixerOption
+public struct MixerCategory
 {
-  public string category;
+  #region Fields
+
+  public string name;
 
   public string displayTitle;
 
   public SpriteResolver resolver;
-}
+
+  #endregion
+ }

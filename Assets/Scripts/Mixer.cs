@@ -13,7 +13,7 @@ public class Mixer : MonoBehaviour
   private MixerSelector selectorTemplate = default;
 
   [SerializeField]
-  private MixerOption[] options = default;
+  private MixerCategory[] categories = default;
 
   #endregion
 
@@ -29,8 +29,8 @@ public class Mixer : MonoBehaviour
 
   private void Start ()
   {
-    foreach ( MixerOption option in options )
-      AddItem(option);
+    foreach ( MixerCategory category in categories )
+      AddUISelector(category);
   }
 
   #endregion
@@ -38,16 +38,16 @@ public class Mixer : MonoBehaviour
 
   #region Methods
 
-  private void AddItem (MixerOption option)
+  private void AddUISelector (MixerCategory category)
   {
-    string[] labels =
-      LibraryAsset.GetCategoryLabelNames(option.category).ToArray();
+    string[] labels = LibraryAsset.GetCategoryLabelNames(category.name)
+                                  .ToArray();
 
     // Create new item & add it to the sidebar
     MixerSelector item = Instantiate(selectorTemplate, transform);
-    
+
     // Initialize the item with options
-    item.Init(option, labels);
+    item.Init(category, labels);
   }
 
   #endregion
