@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: "Assets/Scenes/2 \u2013 Swap.unity"
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: "Assets/Scenes/3a \u2013 Swapper.unity"
+    guid: 5c7bca5d775fe4268aa275f4357114af
+  - enabled: 1
+    path: "Assets/Scenes/3b \u2013 Skinner.unity"
+    guid: 53d23f8a71ea4402687cfd2f1b4d4113
+  - enabled: 1
+    path: "Assets/Scenes/3c \u2013 Mixer.unity"
+    guid: 855cae39fb2f94fcca10f8cd0165c38a
   m_configObjects: {}
